@@ -1,11 +1,16 @@
-function App() {
+import React from 'react'
+import {Navbar} from './Components/Navigation/Navbar'
+import Footer from './Components/Footer/Footer'
+import Home from './Components/Pages/Home'
+// import {BrowserRouter as Router, Route} from 'react-router-dom'
 
+const App = () => {
   return (
-    <>
-     <h1>Hello</h1>
-     <p>This is a paragraph</p>
-     <p>this is asjad</p>
-    </>
+    <div>
+      <Navbar/>
+      <Home/>
+      <Footer/>
+    </div>
   )
 }
 
