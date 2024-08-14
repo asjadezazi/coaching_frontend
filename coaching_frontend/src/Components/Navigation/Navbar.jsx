@@ -61,11 +61,11 @@ export const DropDownMenu = () => {
     </div>
     <div className={`z-20 absolute xl:hidden top-20 left-0 w-full bg-white flex flex-col items-center gap-6 font-bold text-lg transform transition-transform ${isMenuOpen ? 'opacity-100' : 'opacity-0'}`} style={{transition: 'transform 0.3s ease, opacity 0.3s ease' , color: 'darkblue'}}>
 
-    <li className='list-none w-full text-center p-4 hover:bg-blue-900 hover:text-white transition-all cursor-pointer'>Home</li>
-    <li className='list-none w-full text-center p-4 hover:bg-blue-900 hover:text-white transition-all cursor-pointer'>Courses</li>
-    <li className='list-none w-full text-center p-4 hover:bg-blue-900 hover:text-white transition-all cursor-pointer'>Teachers</li>
-    <li className='list-none w-full text-center p-4 hover:bg-blue-900 hover:text-white transition-all cursor-pointer'>About Us</li>
-    <li className='list-none w-full text-center p-4 hover:bg-blue-900 hover:text-white transition-all cursor-pointer'>Contact</li>
+    <li className='list-none w-full text-center p-4 hover:bg-purple-700 hover:text-white transition-all cursor-pointer'>Home</li>
+    <li className='list-none w-full text-center p-4 hover:bg-purple-700 hover:text-white transition-all cursor-pointer'>Courses</li>
+    <li className='list-none w-full text-center p-4 hover:bg-purple-700 hover:text-white transition-all cursor-pointer'>Teachers</li>
+    <li className='list-none w-full text-center p-4 hover:bg-purple-700 hover:text-white transition-all cursor-pointer'>About Us</li>
+    <li className='list-none w-full text-center p-4 hover:bg-purple-700 hover:text-white transition-all cursor-pointer'>Contact</li>
 
     </div>
     </>
