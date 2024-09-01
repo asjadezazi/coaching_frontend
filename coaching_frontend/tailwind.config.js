@@ -5,17 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      animation: {
-        'loop-scroll': 'loop-scroll 40s linear infinite',
-      },
-      keyframes: {
-        'loop-scroll': {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
-          },
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }

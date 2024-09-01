@@ -7,7 +7,7 @@ const HowItWorksHeading = () => {
       How It Works
     </p>
     <h2 className="text-7xl lg:text-4xl font-bold">
-      We Have Some <span className="text-[#4e3dff]">Easy Steps</span> To <br />To Process  
+      We Have Some <span className="text-[#4e3dff]">Easy <br /> Steps</span> To Process  
     </h2>
     <p className="text-4xl lg:text-lg mt-4 text-md text-gray-600">
     "Follow these simple steps to get started quickly and efficiently"

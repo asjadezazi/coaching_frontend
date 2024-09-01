@@ -34,7 +34,7 @@ const ChooseUsCards = () => {
             >
               <div className="hidden lg:block absolute inset-0 bg-black opacity-25 rounded-[80px]"></div>
               <div className="relative z-10 text-white flex flex-col gap-5">
-                <img src={value.icon} alt="" className="size-28 lg:size-16" />
+                <img src={value.icon} alt="icon" className="size-28 lg:size-16" />
                 <h1 className="text-5xl font-bold lg:text-lg">{value.title}</h1>
                 <p className="text-3xl pt-5 lg:text-sm lg:pt-0">{value.description}</p>
               </div>

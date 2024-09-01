@@ -6,11 +6,16 @@ import AboutUs from './components/Pages/About Us/AboutUs'
 import { Contact } from './components/Pages/Contact/Contact'
 import Layout from './Components/Layout/Layout'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Helmet from 'react-helmet'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Layout>
+        <Helmet>
+          <title>Ezazi CLasses</title>
+          <meta name='description' content='Ezazi Classes offers comprehensive coaching for students with a focus on quality education, experienced faculty, and proven results. Explore our courses and testimonials to learn more about how we can help you achieve your academic goals.' />
+        </Helmet>
         <Routes>
           <Route path="*" element={<Home />} />
           <Route exact path="/" element={<Home />} />
