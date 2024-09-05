@@ -1,9 +1,12 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import CourseHeading from '../Courses/CourseHeading';
+import FrontendCourse from './FrontendCourse';
 
 const Courses = () => {
+
   return (
-    <>
+    <div>
       <Helmet>
         {/* Title of the page */}
         <title>Our Courses - Ezazi Classes</title>
@@ -47,10 +50,11 @@ const Courses = () => {
         <meta name="robots" content="index, follow" />
       </Helmet>
 
-      {/* Page Content */}
-      <h1>Our Courses</h1>
-      {/* ... other content ... */}
-    </>
+
+      <CourseHeading />
+      <FrontendCourse/>
+
+    </div>
   );
 };
 

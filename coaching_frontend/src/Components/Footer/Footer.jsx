@@ -1,61 +1,65 @@
-import { BrandName } from "../Navigation/Navbar";
-import { Logo } from "../Navigation/Navbar";
-import { Link } from "react-router-dom";
-import { Instagram, Youtube, Twitter } from "lucide-react";
+import React from "react"
+import horizontalbg from '../../assets/horizontalbg.svg'
+import verticalbg from '../../assets/verticalbg.svg'
+import '../Navigation/navbar.scss'
+import logo from '../../assets/logo.svg'
+import { MapPin } from 'lucide-react';
+import { Phone } from 'lucide-react';
+
 const Footer = () => {
   return (
-    <footer className="bg-[#4e3dff] text-white py-10 px-5 md:px-20">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
-        <div className="flex flex-col">
-          <p id="name">
-            Ezazi Classes
-          </p>
-          <p className="text-sm">
-            Learn Then Earn
-          </p>
-        </div>
+    <>
+      <footer className='flex flex-col gap-20 lg:px-16 lg:flex lg:flex-row lg:gap-20 text-white p-12 bg-cover bg-center' style={{ backgroundImage: `url(${horizontalbg})` }}>
 
-        <div className="flex flex-col">
-          <h2 className="text-lg font-bold mb-4">Quick Links</h2>
-          <ul className="text-sm">
-            <li className="mb-2 hover:text-blue-300"><Link to='/'>Home</Link></li>
-            <li className="mb-2 hover:text-blue-300"><Link to='/courses'>Courses</Link></li>
-            <li className="mb-2 hover:text-blue-300"><Link to='/teachers'>Teachers</Link></li>
-            <li className="mb-2 hover:text-blue-300"><Link to='/about-us'>About Us</Link></li>
-            <li className="mb-2 hover:text-blue-300"><Link to='/contact'>Contact</Link></li>
-          </ul>
-        </div>
-
-        <div className="flex flex-col">
-          <h2 className="text-lg font-bold mb-4">Courses</h2>
-          <ul className="text-sm">
-            <li className="mb-2 hover:text-blue-300"><a href="/course1">Course 1</a></li>
-            <li className="mb-2 hover:text-blue-300"><a href="/course2">Course 2</a></li>
-            <li className="mb-2 hover:text-blue-300"><a href="/course3">Course 3</a></li>
-            <li className="mb-2 hover:text-blue-300"><a href="/course4">Course 4</a></li>
-          </ul>
-        </div>
-
-        <div className="flex flex-col">
-          <h2 className="text-lg font-bold mb-4">Contact Us</h2>
-          <p className="text-sm">+90 686 95887</p>
-          <p className="text-sm">email@example.com</p>
-          <div className="mt-4 flex space-x-4">
-            {/* Replace with your social media icons */}
-            <a href="#" className="hover:text-blue-300"><Instagram/></a>
-            <a href="#" className="hover:text-blue-300"><Youtube/></a>
-            <a href="#" className="hover:text-blue-300"><Twitter/></a>
+        {/* brand name */}
+        <div className='lg:w-96 space-y-10 lg:space-y-4'>
+          <div className='flex items-center gap-5'>
+            <img src={logo} alt="logo" className='w-24 lg:w-12' />
+            <h1 id='name' className='text-7xl font-extrabold lg:text-3xl pt-5 lg:pt-2'>Ezazi Classes</h1>
           </div>
+          <p className='text-4xl lg:text-sm leading-normal'>We work with a passion of taking challenges and creating new ones in IT sector.</p>
+          <button className='bg-blue-500 w-52 lg:w-20 rounded-full p-5 lg:p-2 font-bold text-4xl lg:text-sm'>About Us</button>
         </div>
-      </div>
 
-      <div className="mt-8 text-center border-t border-white pt-4 flex justify-center items-center gap-3">
-        <p className="text-lg">&copy; 2024</p>
-        <p className="brand-name text-sm md:text-base lg:text-lg"><BrandName /></p>
-        <p className="text-lg">All rights reserved.</p>
-      </div>
 
-    </footer>
-  );
+
+        {/* quick links */}
+        <div className='lg:w-96 space-y-10 lg:space-y-4'>
+          <h1 className='text-6xl font-bold lg:text-3xl'>Quick Links</h1>
+          <ul className='text-4xl lg:text-sm space-y-3 lg:space-y-1'>
+            <li>Home</li>
+            <li>Courses</li>
+            <li>Contact Us</li>
+            <li>Blog</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+
+
+        {/* gallery */}
+        <div className='lg:w-96 space-y-10 lg:space-y-4'>
+          <h1 className='text-6xl font-bold lg:text-3xl'>Other Services</h1>
+        </div>
+
+        {/* official info */}
+        <div className='lg:w-96 space-y-10 lg:space-y-4 text-4xl lg:text-sm'>
+          <h1 className='text-6xl font-bold lg:text-3xl'>Official Info.</h1>
+          <p className='leading-snug flex gap-2'><MapPin className='size-10 lg:size-5' />Dehradun Road, Saharanpur, India</p>
+          <p className='flex gap-2'><Phone className='size-10 lg:size-5' />91 9068695887</p>
+          <h3 className='font-bold'>Open Hours :</h3>
+          <p>Mon-Sat : 8 am - 5pm</p>
+          <p>Sunday : Closed</p>
+        </div>
+
+        {/* copyright */}
+       {/* <div className="lg:flex-none p-4" >
+            <p>&copy; 2024 Ezazi Classes. All rights reserved.</p>
+          </div> */}
+
+      </footer>
+       
+    </>
+  )
 }
-export default Footer;
+
+export default Footer

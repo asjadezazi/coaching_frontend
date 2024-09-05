@@ -1,3 +1,4 @@
+import React from "react"
 import Bg from '../../../assets/RectLight.svg'
 import pinkBg from '../../../assets/pinkbg.svg'
 import purplebg from '../../../assets/purplebg.svg'
@@ -13,16 +14,16 @@ const HowItWorksCards = () => {
     {
       id: "01",
       title: "Send Us Message",
-      description: "Join us in a replay of this webinar to see how to go from the first line of code to the first message sent in less than 15 minutes, using the form when you go to contact page.",
+      description: "Reach out to us by sending a message through our contact form. We'll guide you from your first step to receiving a response within minutes.",
       image: Bg,
       icon: icon1,
-      backgroundColor: "#EEEAFF",
+      backgroundColor: "#CCE4FF",
       arrow: <ArrowRight className='stroke-white'/>
     },
     {
       id: "02",
       title: "Discuss With Us",
-      description: "When we receive your message. Our support team will check the information and provide you with suitable solutions for our services available on this website.",
+      description: "Once we receive your message, our team will review it and provide tailored advice on how our services can best meet your needs.",
       image: pinkBg,
       icon: icon2,
       backgroundColor: "#FFEAF5",
@@ -31,14 +32,14 @@ const HowItWorksCards = () => {
     {
       id: "03",
       title: "Start Your Learning",
-      description: "Payment has never been so easy. We use reliable and secure payment services. Your privacy will be best guaranteed. Services are paid for through Payoneer and Paypal.",
+      description: "Getting started is simple and secure. We offer convenient payment options to ensure your learning journey begins without any hassle.",
       image: purplebg,
       icon: icon3,
       backgroundColor: "#F1D9FF",
       arrow: <ArrowRight className='stroke-white'/>
     }
   ];
-
+  
   return (
     <div className="py-28 lg:py-10">
       {data.map((value, index) => {

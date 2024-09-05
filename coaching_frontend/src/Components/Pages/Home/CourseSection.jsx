@@ -1,3 +1,4 @@
+import React from "react"
 import CourseHeading from "./CourseHeading"
 import CourseCards from "./CourseCards"
 

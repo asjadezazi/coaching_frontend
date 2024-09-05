@@ -1,7 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  css: {
+    preprocessorOptions: {
+      // Vite will process imported CSS files from node_modules
+      additionalData: `@import "slick-carousel/slick/slick.css"; @import "slick-carousel/slick/slick-theme.css";`,
+    },
+  },
+  resolve: {
+    alias: {
+      'slick-carousel': 'slick-carousel/slick',
+    },
+  },
+});

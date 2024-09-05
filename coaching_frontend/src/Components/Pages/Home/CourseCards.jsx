@@ -1,3 +1,4 @@
+import React from "react"
 import mongodb from '../../../assets/mongodb.svg'
 import express from '../../../assets/express.svg'
 import react from '../../../assets/react.svg'

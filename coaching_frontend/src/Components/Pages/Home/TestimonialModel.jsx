@@ -1,0 +1,12 @@
+import React from 'react'
+import tmodel from '../../../assets/testimonial.png'
+
+const TestimonialModel = () => {
+  return (
+    <div className='hidden lg:inline lg:mt-6'>
+        <img src={tmodel} alt="tmodel" className='h-96 w-96 '/>
+    </div>
+  )
+}
+
+export default TestimonialModel

@@ -3,10 +3,13 @@ import Home from './components/Pages/Home/Home'
 import Courses from './components/Pages/Courses/Courses'
 import Testimonials from './components/Pages/Testimonials/Testimonials'
 import AboutUs from './components/Pages/About Us/AboutUs'
-import { Contact } from './components/Pages/Contact/Contact'
+import {Contact} from './components/Pages/Contact/Contact'
 import Layout from './Components/Layout/Layout'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Helmet from 'react-helmet'
+import ScrollToTop from "react-scroll-to-top";
+import { ArrowBigUpDash } from 'lucide-react';
+
 
 const App = () => {
   return (
@@ -24,6 +27,14 @@ const App = () => {
           <Route exact path="/aboutus" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <ScrollToTop
+          smooth
+          component={<ArrowBigUpDash />}
+          className='flex justify-center text-white items-center'
+          style={{
+            backgroundColor: '#0018C4',
+          }}
+        />
       </Layout>
     </BrowserRouter>
   )

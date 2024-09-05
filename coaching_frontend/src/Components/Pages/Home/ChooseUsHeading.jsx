@@ -1,4 +1,4 @@
-
+import React from "react"
 const ChooseUsHeading = () => {
   return (
     <div className="text-center mb-12 drop-shadow-[0_10px_100px_#150c77]">

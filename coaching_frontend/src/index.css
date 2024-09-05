@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.awssld__bullets {
+    display: none !important;
+}
+
+.awssld__next,
+.awssld__prev {
+    width: 40px !important;
+    height: 60px !important;
+}
+

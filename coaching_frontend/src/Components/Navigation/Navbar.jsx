@@ -1,12 +1,16 @@
+import React from 'react'
 import { Phone, MoveRight, AlignJustify  } from 'lucide-react'
 import logo from '../../assets/logo.svg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import navbarbg from '../../assets/navbarbg.svg'
 import './navbar.scss'
 
 export const Navbar = () => {
     return (
-    <nav className="w-full h-52 lg:h-24 flex justify-between items-center fixed z-10 text-white bg-[#4e3dff] px-14 lg:px-16 font-sans">
+    <nav className="w-full h-52 lg:h-24 flex justify-between items-center fixed z-10 text-white px-14 lg:px-16 font-sans" 
+    style={{ backgroundImage: `url(${navbarbg})` }}
+    >
       <Logo/>
       <NavTitles/>
       <ContactUs/>
@@ -70,10 +74,10 @@ export const DropDownMenu = () => {
         style={{ top: '100%', color: 'darkblue' }}
       >
         <li className=" text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer">
-          Home
+           <Link to='/'>Home</Link>
         </li>
         <li className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer">
-          Courses
+           <Link to='/courses'>Courses</Link>
         </li>
         <li className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer">
           Teachers

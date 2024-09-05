@@ -1,3 +1,4 @@
+import React from "react"
 import model from '../../../assets/model.png'
 import react from '../../../assets/react.svg'
 import node from '../../../assets/node.svg'
