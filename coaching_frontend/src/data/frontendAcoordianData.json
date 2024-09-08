@@ -1,0 +1,326 @@
+[
+    {
+        "title": "Course Overview",
+        "content": [
+            "Introduction to Frontend Development",
+            "Importance of Frontend Skills in Web Development",
+            "Overview of the Course Structure and Goals"
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "content": [
+            "Setting Up the Development Environment",
+            "Introduction to IDEs and Text Editors",
+            "Installing Essential Tools (e.g., Node.js, Git)"
+        ]
+    },
+    {
+        "title": "HTML 5",
+        "contents": [
+            {
+                "subtitle": "Understanding the Structure of Web Pages",
+                "content": [
+                    "What is HTML?",
+                    "The role of HTML in web development",
+                    "How browsers interpret HTML",
+                    "Understanding the Document Object Model (DOM)"
+                ]
+            },
+            {
+                "subtitle": "HTML Tags and Elements",
+                "content": [
+                    "Difference between elements and tags",
+                    "Commonly used HTML tags (e.g., <div>, <span>, <p>, <a>)",
+                    "Block-level vs. inline elements",
+                    "Nesting and grouping elements"
+                ]
+            },
+            {
+                "subtitle": "Creating a Basic HTML Document",
+                "content": [
+                    "The structure of an HTML document (<!DOCTYPE html>, <html>, <head>, <body>)",
+                    "Adding meta tags for SEO and responsiveness",
+                    "Linking CSS and JavaScript files"
+                ]
+            },
+            {
+                "subtitle": "Working with Text and Links",
+                "content": [
+                    "Formatting text using tags like <h1> to <h6>, <p>, <strong>, <em>",
+                    "Creating hyperlinks with <a> and handling internal/external links",
+                    "Using anchor tags to navigate within a page"
+                ]
+            },
+            {
+                "subtitle": "HTML Attributes",
+                "content": [
+                    "Understanding attributes and their usage (e.g., class, id, src, href)",
+                    "Using data attributes for custom data storage",
+                    "The importance of accessibility attributes (alt, aria-*)"
+                ]
+            },
+            {
+                "subtitle": "Adding Images and Media",
+                "content": [
+                    "Inserting images with <img> and using the alt attribute for accessibility",
+                    "Embedding videos with <video> and using the controls, autoplay, and loop attributes",
+                    "Adding audio with <audio> and understanding the <source> element"
+                ]
+            },
+            {
+                "subtitle": "Lists and Tables",
+                "content": [
+                    "Creating ordered (<ol>) and unordered (<ul>) lists",
+                    "Using nested lists for hierarchical data",
+                    "Building tables with <table>, <tr>, <th>, and <td>",
+                    "Adding captions and headers to tables for better accessibility"
+                ]
+            },
+            {
+                "subtitle": "Forms and Input Handling",
+                "content": [
+                    "Building forms with <form> and understanding form submission",
+                    "Various input types (text, email, password, checkbox, radio, etc.)",
+                    "Using <label> for accessibility and better UX",
+                    "Form validation with required, pattern, and other attributes",
+                    "Handling form actions with method and action attributes"
+                ]
+            },
+            {
+                "subtitle": "Semantic HTML",
+                "content": [
+                    "Importance of semantic HTML for SEO and accessibility",
+                    "Using semantic tags like <header>, <footer>, <article>, <section>, <nav>",
+                    "Differentiating between divs and semantic containers"
+                ]
+            },
+            {
+                "subtitle": "HTML Best Practices",
+                "content": [
+                    "Writing clean and maintainable HTML",
+                    "Avoiding inline styles and scripts",
+                    "Ensuring cross-browser compatibility",
+                    "Understanding HTML5 and the evolution of web standards"
+                ]
+            },
+            {
+                "subtitle": "Introduction to HTML5 Features",
+                "content": [
+                    "New form elements (<datalist>, <output>, <progress>, etc.)",
+                    "The <canvas> element for drawing graphics",
+                    "The <audio> and <video> elements for multimedia",
+                    "Using local storage and session storage"
+                ]
+            },
+            {
+                "subtitle": "Accessibility Considerations",
+                "content": [
+                    "Adding alt text for images and using proper form labels",
+                    "Navigating with screen readers using ARIA roles and landmarks",
+                    "Structuring content for better readability and navigation"
+                ]
+            },
+            {
+                "subtitle": "Practical Exercises",
+                "content": [
+                    "Building a Simple Webpage: Create a basic webpage using the HTML tags and concepts learned.",
+                    "Form Design: Create a simple form for user registration with various input types.",
+                    "Image Gallery: Create a gallery page with images and captions using <figure> and <figcaption> tags."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "CSS 3",
+        "contents": [
+            {
+                "subtitle": "CSS Fundamentals",
+                "content": [
+                    "Selectors and Specificity: How to target HTML elements and the importance of specificity.",
+                    "Colors and Typography: Setting text color, background color, fonts, and font sizes.",
+                    "Box Model: Understanding margin, padding, border, and content areas.",
+                    "Units of Measurement: Differences between px, em, rem, percentages, and vw/vh.",
+                    "Positioning: Understanding static, relative, absolute, fixed, and sticky positioning.",
+                    "Z-index: How to layer elements on top of each other."
+                ]
+            },
+            {
+                "subtitle": "Responsive Design",
+                "content": [
+                    "Fluid Grids: Designing flexible layouts that adapt to different screen sizes.",
+                    "Mobile-First Design: The philosophy of designing for mobile devices first.",
+                    "Viewport Meta Tag: Ensuring proper scaling on mobile devices."
+                ]
+            },
+            {
+                "subtitle": "Advanced CSS",
+                "content": [
+                    "CSS Variables (Custom Properties): How to use variables in CSS for consistent styling.",
+                    "CSS Grid vs. Flexbox: Differences and use cases for grid-based and flexible layouts.",
+                    "CSS Transitions and Transformations: Creating smooth visual effects on hover or interaction.",
+                    "Responsive Images: Using srcset and picture elements to serve appropriate images based on screen size."
+                ]
+            },
+            {
+                "subtitle": "CSS Frameworks",
+                "content": [
+                    "Tailwind CSS: Utility-first approach to styling, with examples of how to quickly build responsive components.",
+                    "Bootstrap: Using pre-built components and grid systems for faster development.",
+                    "SCSS Features: Variables, nesting, mixins, and how to compile SCSS into CSS."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "JavaScript ES6",
+        "contents": [
+            {
+              "subtitle": "JavaScript Essentials",
+              "content": [
+                "Basics of JavaScript Programming: Understanding the syntax, data types, and basic operators.",
+                "Variables and Constants: Using let, const, and var for variable declaration and scope.",
+                "Control Structures: Implementing conditional statements (if, switch) and loops (for, while, do-while).",
+                "Functions: Defining and invoking functions, understanding function expressions and arrow functions.",
+                "Objects and Arrays: Working with objects and arrays, including methods and properties.",
+                "Error Handling: Using try, catch, finally, and throw for managing errors in code.",
+                "Event Handling: Adding event listeners and handling user interactions."
+              ]
+            },
+            {
+              "subtitle": "DOM Manipulation and Event Handling",
+              "content": [
+                "DOM Traversal: Navigating and selecting elements in the DOM using methods like getElementById, querySelector, and querySelectorAll.",
+                "Modifying the DOM: Changing content, attributes, and styles of elements dynamically.",
+                "Creating and Removing Elements: Adding and deleting elements from the DOM.",
+                "Event Bubbling and Delegation: Understanding how events propagate and using event delegation for efficient event handling."
+              ]
+            },
+            {
+              "subtitle": "JavaScript ES6+ Features",
+              "content": [
+                "Template Literals: Using backticks for string interpolation and multi-line strings.",
+                "Destructuring: Extracting values from arrays and objects into variables.",
+                "Modules: Importing and exporting functions, objects, and values between files.",
+                "Promises and Async/Await: Handling asynchronous operations and making code cleaner and more readable."
+              ]
+            },
+            {
+              "subtitle": "Advanced JavaScript Concepts",
+              "content": [
+                "Closures: Understanding how functions can capture and remember their lexical scope.",
+                "Prototypes and Inheritance: How JavaScript objects inherit properties and methods.",
+                "The Event Loop: Understanding how asynchronous code execution works in JavaScript.",
+                "Memory Management: Techniques for optimizing performance and managing memory in JavaScript."
+              ]
+            },
+            {
+              "subtitle": "JavaScript Libraries and Frameworks",
+              "content": [
+                "React Basics: Understanding components, JSX, and state management.",
+                "Vue.js: Introduction to Vue.js and its core concepts like directives and reactive data.",
+                "Angular: Overview of Angular, including components, services, and dependency injection."
+              ]
+            }
+          ]
+    },
+    {
+        "title": "React Js",
+        "contents" : [
+            {
+              "subtitle": "Introduction to React",
+              "content": [
+                "Overview of React: What is React and why use it?",
+                "History and Evolution: The development of React and its major versions",
+                "Core Concepts: Components, JSX, Virtual DOM, and React’s declarative approach",
+                "React Ecosystem: Introduction to the broader ecosystem including tools and libraries"
+              ]
+            },
+            {
+              "subtitle": "Understanding Components and JSX",
+              "content": [
+                "Components: Explanation of functional and class components",
+                "JSX Syntax: Detailed syntax of JSX, including embedding expressions and attributes",
+                "Component Lifecycle: Lifecycle methods in class components and lifecycle hooks in functional components",
+                "Props and State: Understanding how props and state manage data within components"
+              ]
+            },
+            {
+              "subtitle": "Building Interactive User Interfaces",
+              "content": [
+                "Event Handling: Managing user interactions through events",
+                "Forms and Inputs: Handling form submissions, controlled vs. uncontrolled components",
+                "Conditional Rendering: Techniques for rendering components based on conditions",
+                "Lists and Keys: Rendering lists of items efficiently with unique keys"
+              ]
+            },
+            {
+              "subtitle": "State Management in React",
+              "content": [
+                "Local State: Managing state within individual components",
+                "Context API: Using React's Context API for state management across components",
+                "Hooks: Using React hooks like useState, useEffect, and custom hooks for state and side effects"
+              ]
+            },
+            {
+              "subtitle": "React Hooks",
+              "content": [
+                "useState: Managing local state in functional components",
+                "useEffect: Performing side effects like data fetching and subscriptions",
+                "useContext: Consuming context in functional components",
+                "useReducer: Managing complex state logic with reducers",
+                "useMemo: Memoizing values to optimize performance",
+                "useCallback: Memoizing callback functions to prevent unnecessary re-renders",
+                "Custom Hooks: Creating reusable hooks for encapsulating component logic",
+                "Rules of Hooks: Understanding and adhering to the rules of hooks"
+              ]
+            },
+            {
+              "subtitle": "Routing in React",
+              "content": [
+                "React Router: Setting up routing with React Router",
+                "Route Components: Using Route, Switch, and Link components to navigate between pages",
+                "Dynamic Routing: Handling dynamic routes and passing parameters",
+                "Nested Routes: Implementing nested routes for complex applications"
+              ]
+            },
+            {
+              "subtitle": "Styling React Applications",
+              "content": [
+                "Inline Styles: Applying styles directly within JSX",
+                "CSS Modules: Using CSS Modules for scoped and modular styles",
+                "Styled Components: Leveraging Styled Components for CSS-in-JS styling",
+                "Tailwind CSS: Integrating Tailwind CSS for utility-first styling in React"
+              ]
+            },
+            {
+              "subtitle": "Performance Optimization",
+              "content": [
+                "Memoization: Using React.memo and useMemo to optimize performance",
+                "Code Splitting: Implementing code splitting to reduce initial load time",
+                "Lazy Loading: Dynamically loading components with React.lazy and Suspense",
+                "Profiling: Using React Profiler to identify performance bottlenecks"
+              ]
+            },
+            {
+              "subtitle": "Advanced React Patterns",
+              "content": [
+                "Higher-Order Components (HOCs): Creating and using HOCs for code reuse",
+                "Render Props: Implementing render props for component logic sharing",
+                "Compound Components: Building components with compound patterns for flexible composition",
+                "Hooks API: Advanced hooks patterns and custom hooks for reusable logic"
+              ]
+            },
+            {
+              "subtitle": "React Best Practices",
+              "content": [
+                "Code Structure: Organizing React applications and component hierarchies",
+                "Error Boundaries: Implementing error boundaries to handle exceptions gracefully",
+                "Accessibility: Ensuring accessibility best practices in React applications",
+                "Documentation: Documenting components and applications for maintainability"
+              ]
+            }
+          ]
+          
+    }
+]

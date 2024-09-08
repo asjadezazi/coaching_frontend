@@ -20,20 +20,12 @@ const FrontendCourse = () => {
             </div>
 
 
-            <p className='mt-10 lg:mt-5 text-5xl lg:text-xl leading-snug'>Learn beginner to advance Frontend Development</p>
+            <p className='mt-10 lg:mt-5 text-5xl lg:text-xl  leading-snug'>Learn beginner to advance Frontend Development</p>
 
-            <h1 className='mt-20 font-bold lg:mt-10 text-7xl lg:text-2xl'>What You Will Learn</h1>
-            <p className='mt-5 lg:mt-2 text-5xl lg:text-xl leading-normal'>
-                - HTML, CSS, and JavaScript fundamentals<br />
-                - Responsive web design with Flexbox and Grid<br />
-                - Modern JavaScript (ES6+) and DOM manipulation<br />
-                - CSS frameworks like Tailwind CSS<br />
-                - Version control with Git and GitHub<br />
-                - Introduction to React and building dynamic UIs<br />
-                - Best practices for web accessibility and SEO<br />
-            </p>
+            <h1 className='mt-20 font-bold lg:mt-10 text-[#4e3dff] text-7xl lg:text-2xl'>Table Of Contents</h1>
+            <p className='text-5xl lg:text-xl w-full lg:w-3/5 leading-snug p-4'>Inside each header, the content covers a comprehensive exploration of the topic, including: Conceptual Foundations, Technical Details, Libraries and Frameworks, Advanced Topics, Practical Applications.</p>
 
-            <h1 className='mt-20 font-bold lg:mt-10 text-7xl lg:text-2xl'>Table Of Contents</h1>
+
             <FrontendAccordion />
 
 

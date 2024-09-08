@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What courses does Ezazi Classes offer?",
+        "answer": "At Ezazi Classes, we provide a wide range of courses focused on web development, including Frontend Development, Backend Development, MERN Stack, and MEAN Stack. Our courses are designed to equip students with the latest tools and technologies in the industry."
+    },
+    {
+        "question": "Who can enroll in your courses?",
+        "answer": "Our courses are suitable for anyone interested in web development, from complete beginners to experienced developers looking to advance their skills."
+    },
+    {
+        "question": "What is the duration of the courses?",
+        "answer": "The duration of our courses varies depending on the subject and depth. Typically, foundational courses last 3-6 months, while advanced courses can range from 6-12 months."
+    },
+    {
+        "question": "Do you offer online classes?",
+        "answer": "Yes, we offer both online and offline classes, with an interactive platform ensuring the same experience as in-person classes."
+    },
+    {
+        "question": "What are the class timings?",
+        "answer": "We provide flexible class timings, including weekend batches and evening sessions to accommodate students and working professionals."
+    },
+    {
+        "question": "Do you offer placement assistance?",
+        "answer": "Yes, we offer placement assistance for all our students, including mock interviews, resume building, and job referrals."
+    },
+    {
+        "question": "Who are the instructors at Ezazi Classes?",
+        "answer": "Our faculty comprises experienced professionals from the web development industry, dedicated to providing hands-on guidance."
+    },
+    {
+        "question": "What is the fee structure?",
+        "answer": "The fee structure varies depending on the course. Please refer to our Courses Page or contact us directly for detailed pricing."
+    },
+    {
+        "question": "Can I get a demo class before enrolling?",
+        "answer": "Yes, we offer free demo classes to help you understand our teaching methods before enrolling in a course."
+    },
+    {
+        "question": "How do I enroll in a course?",
+        "answer": "You can enroll through our website by filling out the enrollment form or by contacting us via phone or email."
+    }
+]

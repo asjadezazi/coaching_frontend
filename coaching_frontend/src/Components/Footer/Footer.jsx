@@ -1,10 +1,10 @@
 import React from "react"
 import horizontalbg from '../../assets/horizontalbg.svg'
-import verticalbg from '../../assets/verticalbg.svg'
 import '../Navigation/navbar.scss'
 import logo from '../../assets/logo.svg'
 import { MapPin } from 'lucide-react';
 import { Phone } from 'lucide-react';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
             <h1 id='name' className='text-7xl font-extrabold lg:text-3xl pt-5 lg:pt-2'>Ezazi Classes</h1>
           </div>
           <p className='text-4xl lg:text-sm leading-normal'>We work with a passion of taking challenges and creating new ones in IT sector.</p>
-          <button className='bg-blue-500 w-52 lg:w-20 rounded-full p-5 lg:p-2 font-bold text-4xl lg:text-sm'>About Us</button>
+          <button className='bg-blue-500 w-52 lg:w-20 rounded-full p-5 lg:p-2 font-bold text-4xl lg:text-sm'><Link to="/aboutus">About Us</Link></button>
         </div>
 
 
@@ -29,8 +29,8 @@ const Footer = () => {
           <ul className='text-4xl lg:text-sm space-y-3 lg:space-y-1'>
             <li>Home</li>
             <li>Courses</li>
+            <li>About Us</li>
             <li>Contact Us</li>
-            <li>Blog</li>
             <li>FAQs</li>
           </ul>
         </div>
@@ -39,6 +39,14 @@ const Footer = () => {
         {/* gallery */}
         <div className='lg:w-96 space-y-10 lg:space-y-4'>
           <h1 className='text-6xl font-bold lg:text-3xl'>Other Services</h1>
+          <ul className='text-4xl lg:text-sm space-y-3 lg:space-y-1'>
+            <li>Web Designing</li>
+            <li>Graphic Designing</li>
+            <li>Web Development</li>
+            <li>SEO & SMO</li>
+            <li>Advertising</li>
+            <li>AMC Maintenance</li>
+          </ul>
         </div>
 
         {/* official info */}
@@ -52,12 +60,12 @@ const Footer = () => {
         </div>
 
         {/* copyright */}
-       {/* <div className="lg:flex-none p-4" >
+        {/* <div className="lg:flex-none p-4" >
             <p>&copy; 2024 Ezazi Classes. All rights reserved.</p>
           </div> */}
 
       </footer>
-       
+
     </>
   )
 }

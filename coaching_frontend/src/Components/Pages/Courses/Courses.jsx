@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Helmet from 'react-helmet';
 import CourseHeading from '../Courses/CourseHeading';
 import FrontendCourse from './FrontendCourse';
 
 const Courses = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
-    <div>
+    <div className='bg-indigo-50'>
       <Helmet>
         {/* Title of the page */}
         <title>Our Courses - Ezazi Classes</title>
@@ -52,7 +57,7 @@ const Courses = () => {
 
 
       <CourseHeading />
-      <FrontendCourse/>
+      <FrontendCourse />
 
     </div>
   );
