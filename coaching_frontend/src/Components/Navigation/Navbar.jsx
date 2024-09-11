@@ -51,10 +51,10 @@ export const NavTitles = () => {
         <Link to="/aboutus">About Us</Link>
       </li>
       <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="/faqs">FAQs</Link>
       </li>
       <li>
-        <Link to="/faqs">FAQs</Link>
+        <Link to="/contact">Contact</Link>
       </li>
       <li>
         <Link to="/admissions">Admissions</Link>
@@ -107,13 +107,13 @@ export const DropDownMenu = () => {
           className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
           onClick={handleLinkClick}
         >
-          <Link to="/contact">Contact</Link>
+          <Link to="/faqs">FAQs</Link>
         </li>
         <li
           className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
           onClick={handleLinkClick}
         >
-          <Link to="/faqs">FAQs</Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li
           className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"

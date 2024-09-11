@@ -1,4 +1,4 @@
-import React from "react"
+import React,{ useEffect } from "react"
 import EntrySection from "./EntrySection"
 import CourseSection from "./CourseSection"
 import ChooseUsSection from "./ChooseUsSection"
@@ -9,6 +9,9 @@ import GetStarted from "./GetStarted.jsx"
 // import TeachersSection from "./TeachersSection.jsx"
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full h-auto flex flex-col z-0">
       <EntrySection />

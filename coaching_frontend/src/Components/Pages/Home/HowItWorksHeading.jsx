@@ -2,7 +2,7 @@ import React from 'react'
 
 const HowItWorksHeading = () => {
   return (
-    <div className="text-center mb-12 lg:mb-0 drop-shadow-[0_10px_100px_#150c77]">
+    <div data-aos="slide-right" className="text-center mb-12 lg:mb-0 drop-shadow-[0_10px_100px_#150c77]">
     <p className="text-3xl lg:text-lg mt-20 lg:mt-5 mb-5 text-[#4e3dff] uppercase tracking-wide font-semibold">
       How It Works
     </p>

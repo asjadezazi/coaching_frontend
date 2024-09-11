@@ -30,8 +30,9 @@ const Footer = () => {
             <li>Home</li>
             <li>Courses</li>
             <li>About Us</li>
-            <li>Contact Us</li>
             <li>FAQs</li>
+            <li>Contact Us</li>
+            <li>Admissions</li>
           </ul>
         </div>
 
@@ -55,7 +56,7 @@ const Footer = () => {
           <p className='leading-snug flex gap-2'><MapPin className='size-10 lg:size-5' />Dehradun Road, Saharanpur, India</p>
           <p className='flex gap-2'><Phone className='size-10 lg:size-5' />91 9068695887</p>
           <h3 className='font-bold'>Open Hours :</h3>
-          <p>Mon-Sat : 8 am - 5pm</p>
+          <p>Mon-Sat : 9 am - 6 pm</p>
           <p>Sunday : Closed</p>
         </div>
 

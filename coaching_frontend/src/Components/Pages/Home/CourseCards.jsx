@@ -40,7 +40,7 @@ const CourseCards = () => {
     return (
         <div className='px-16 mt-20 space-y-16 text-center lg:flex lg:space-x-3 lg:mt-0 lg:space-y-0 lg:px-28'>
             {data.map((value, index) => (
-                <div key={index} className='w-full px-32 lg:px-5 bg-indigo-50 rounded-xl text-black flex flex-col justify-between p-5'>
+                <div  data-aos="fade-up" key={index} className='w-full px-32 lg:px-5 bg-indigo-50 rounded-xl text-black flex flex-col justify-between p-5'>
                     <div>
                         <div className='flex justify-evenly p-10 lg:p-5'>
                             {value.icons.map((icon, idx) => (

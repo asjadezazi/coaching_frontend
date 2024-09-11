@@ -10,6 +10,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Helmet from 'react-helmet'
 import ScrollToTop from "react-scroll-to-top";
 import { ArrowBigUpDash } from 'lucide-react';
+import { initAOS } from './components/Utils/aosConfig'
+initAOS()
 
 
 const App = () => {

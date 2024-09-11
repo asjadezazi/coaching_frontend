@@ -6,10 +6,16 @@ import tailwind from '../../../assets/tailwind.svg'
 import html from '../../../assets/html.svg'
 import js from '../../../assets/js.svg'
 import vue from '../../../assets/vue.svg'
+import { initAOS } from "../../Utils/aosConfig"
 
 const Model = () => {
+    initAOS({
+        duration: 1500,
+      });
     return (
-        <div className="flex justify-center relative top-44 lg:top-24">
+        <div className="flex justify-center relative top-44 lg:top-24"
+          data-aos="slide-up"
+          >
             {/* Top-left */}
             <div className="absolute top-0 left-[20%] sm:left-[28 %] md:left-[30%] lg:left-[35%] xl:left-[38%]  rounded-md w-12 h-11 z-0">
                 <img src={tailwind} alt="Tailwind" className="animate-bounce size-10 relative left-1" />
