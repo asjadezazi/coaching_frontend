@@ -7,10 +7,11 @@ import data from '../../../data/faqsAccordionData.json'
 
 export default function AccordionUsage() {
   return (
-    <div className='mx-20 mb-28 lg:mb-0'>
-        <h2 className="text-5xl lg:text-3xl text-center font-bold mb-10">
+    <>
+    <h2 data-aos="slide-left" className="text-5xl lg:text-3xl text-center font-bold mb-10">
         Frequently Asked <span className="text-[#4e3dff]">Questions</span>
       </h2>
+    <div data-aos="slide-right" className='mx-20 mb-28 lg:mb-0'>
         {data.map((value, index)=>{
             return (
                 <Accordion className='text-3xl lg:text-xl mt-5 lg:mt-2 p-5 lg:p-0'>
@@ -29,5 +30,6 @@ export default function AccordionUsage() {
         })}
      
     </div>
+    </>
   );
 }

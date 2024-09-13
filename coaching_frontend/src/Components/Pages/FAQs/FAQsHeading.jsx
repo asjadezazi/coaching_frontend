@@ -1,7 +1,7 @@
 import React from "react"
 const FAQsHeading = () => {
   return (
-    <div className="text-center py-36 lg:py-0 mb-12 drop-shadow-[0_10px_100px_#150c77]">
+    <div data-aos="slide-down" className="text-center py-36 lg:py-0 mb-12 drop-shadow-[0_10px_100px_#150c77]">
       <h2 className="text-7xl lg:text-4xl font-bold">
         Find Your <span className="text-[#4e3dff]">Answers</span> <br /> To Common Queries  
       </h2>

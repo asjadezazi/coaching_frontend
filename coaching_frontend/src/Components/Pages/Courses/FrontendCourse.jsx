@@ -4,7 +4,7 @@ import FrontendAccordion from './FrontendAccordion'
 
 const FrontendCourse = () => {
     return (
-        <div className=' p-7 py-10'>
+        <div  data-aos="zoom-in" className=' p-7 py-10'>
 
             {/* heading */}
             <h1 className='text-8xl lg:text-5xl font-bold'>Front End Web Development:<span className='text-[#4e3dff]'> Get <br /> Started</span> </h1>

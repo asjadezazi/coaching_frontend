@@ -15,7 +15,6 @@ const AboutUs = () => {
     <div className='bg-indigo-50 mt-52 lg:mt-24 bg-'>
       <AboutUsHeading />
       <AboutUsPara />
-      <CourseSection />
       <OurMission />
       <WhyChooseUs />
       <TestimonialSection />
