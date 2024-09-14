@@ -4,15 +4,15 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import data from '../../../data/frontendAcoordianData.json';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 function FrontendAccordion() {
-  useEffect(() => {
-    AOS.init({
-      once: true, // Only animate once
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     once: true, // Only animate once
+  //   });
+  // }, []);
 
   return (
     <div data-aos="slide-right" className='mt-10'> {/* AOS on container instead */}
@@ -29,8 +29,8 @@ function FrontendAccordion() {
             {section.contents ? (
               section.contents.map((subSection, idx) => (
                 <div key={idx} className='mb-5'>
-                  <h3 className='text-4xl lg:text-lg font-semibold'>{subSection.subtitle}</h3>
-                  <ul className='text-3xl text-slate-600 lg:text-lg space-y-2 list-disc pl-5'>
+                  <h3 className='text-4xl text-[#4e3dff] lg:text-lg font-semibold'>{subSection.subtitle}</h3>
+                  <ul className='text-3xl text-slate-500 lg:text-lg space-y-2 list-disc pl-5'>
                     {subSection.content.map((item, itemIdx) => (
                       <li key={itemIdx}>{item}</li>
                     ))}

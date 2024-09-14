@@ -14,7 +14,7 @@ export default function AccordionUsage() {
     <div data-aos="slide-right" className='mx-20 mb-28 lg:mb-0'>
         {data.map((value, index)=>{
             return (
-                <Accordion className='text-3xl lg:text-xl mt-5 lg:mt-2 p-5 lg:p-0'>
+                <Accordion  key={index} className='text-3xl lg:text-xl mt-5 lg:mt-2 p-5 lg:p-0'>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1-content"
