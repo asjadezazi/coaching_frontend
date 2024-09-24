@@ -3,6 +3,11 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import star from '../../../assets/star.png';
 import model from '../../../assets/model.png';
+import azhar from '../../../assets/azhar.jpg'
+import shavez from '../../../assets/shavez.jpg'
+import arshad from '../../../assets/arshad.jpg'
+
+
 
 const data = [
     {
@@ -10,24 +15,28 @@ const data = [
         description: "The courses were insightful and hands-on, allowing me to apply skills in real-time. The faculty's support was unmatched, making the experience transformative. Highly recommend this institute for tech careers.",
         post: "Full Stack Developer",
         rating: 5,
+        image: azhar
     },
     {
         name: "Shavez Ali",
         description: "I landed my dream job thanks to the training and real-world projects. The curriculum matched industry needs, and the mentors were deeply invested in my success. Perfect environment to start a career.",
         post: "UI/UX Developer",
         rating: 4,
+        image: shavez
     },
     {
-        name: "Mohammad Uvais",
+        name: "Arshad",
         description: "The curriculum is well-structured, with clear, in-depth teaching. The projects built my confidence and portfolio. This experience significantly enhanced my tech skills and prepared me for the industry.",
         post: "Frontend Developer",
         rating: 3,
+        image: arshad
     },
     {
-        name: "Shiksha Thapa",
+        name: "Abhiraj Khatana",
         description: "Amazing experience! Knowledgeable faculty provided crucial insights for my career. The supportive environment made learning easy, and the skills I gained opened new opportunities in tech.",
         post: "React Developer",
         rating: 5,
+        image: model
     }
 ];
 
@@ -58,7 +67,7 @@ const TestimonialCards = () => {
                             <div className='flex gap-7 items-center'>
 
                                 <div className='rounded-full border-2 border-blue-900'>
-                                    <img src={model} alt="img" className='p-2 w-28 h-28 lg:w-20 lg:h-20 rounded-full' />
+                                    <img src={value.image} alt="img" className='p-2 w-28 h-28 lg:w-20 lg:h-20 rounded-full' />
                                 </div>
 
                                 <div className='flex flex-col justify-center items-center'>
