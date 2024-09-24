@@ -1,6 +1,5 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import '../../Navigation/navbar.scss';
 
 const AboutUsHeading = () => {
   return (

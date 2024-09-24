@@ -5,7 +5,7 @@ import AboutUs from './components/Pages/About Us/AboutUs'
 import Contact from './components/Pages/Contact/Contact'
 import FAQs from './components/Pages/FAQs/FAQs'
 import Error from './components/Pages/404Page/Error'
-import Layout from './Components/Layout/Layout'
+import Layout from './components/Layout/Layout'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Helmet from 'react-helmet'
 import ScrollToTop from "react-scroll-to-top";

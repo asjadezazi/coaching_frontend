@@ -1,6 +1,5 @@
 import React from "react"
 import horizontalbg from '../../assets/horizontalbg.svg'
-import '../Navigation/navbar.scss'
 import logo from '../../assets/logo.svg'
 import { MapPin } from 'lucide-react';
 import { Phone } from 'lucide-react';
