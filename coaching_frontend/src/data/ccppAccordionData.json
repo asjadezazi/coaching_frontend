@@ -1,0 +1,163 @@
+[
+    {
+        "title": "Course Overview",
+        "content": [
+            "Introduction to C and C++ Programming",
+            "Importance of Learning C and C++ in Software Development",
+            "Overview of the Course Structure and Goals"
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "content": [
+            "Setting Up the Development Environment",
+            "Introduction to IDEs (e.g., Code::Blocks, Visual Studio) and Text Editors",
+            "Installing Essential Tools and Compilers (GCC, G++)"
+        ]
+    },
+    {
+        "title": "C Programming",
+        "contents": [
+            {
+                "subtitle": "Introduction to C",
+                "content": [
+                    "History and Importance of C Language",
+                    "Basic Syntax and Structure of a C Program",
+                    "Compiling and Running C Programs"
+                ]
+            },
+            {
+                "subtitle": "Data Types and Variables",
+                "content": [
+                    "Primitive Data Types (int, float, char, etc.)",
+                    "Variables and Constants",
+                    "Type Conversion and Type Casting"
+                ]
+            },
+            {
+                "subtitle": "Control Structures",
+                "content": [
+                    "Conditional Statements (if, if-else, switch-case)",
+                    "Loops (for, while, do-while)",
+                    "Jump Statements (break, continue, goto)"
+                ]
+            },
+            {
+                "subtitle": "Functions",
+                "content": [
+                    "Function Definition and Declaration",
+                    "Passing Parameters and Return Values",
+                    "Recursion and Inline Functions"
+                ]
+            },
+            {
+                "subtitle": "Pointers and Memory Management",
+                "content": [
+                    "Introduction to Pointers",
+                    "Pointer Arithmetic",
+                    "Dynamic Memory Allocation (malloc, calloc, free)"
+                ]
+            },
+            {
+                "subtitle": "Data Structures in C",
+                "content": [
+                    "Arrays and Strings",
+                    "Structures and Unions",
+                    "File Handling in C"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "C++ Programming",
+        "contents": [
+            {
+                "subtitle": "Introduction to C++",
+                "content": [
+                    "Evolution from C to C++",
+                    "Key Differences Between C and C++",
+                    "First C++ Program: Compiling and Running"
+                ]
+            },
+            {
+                "subtitle": "Object-Oriented Programming (OOP) Concepts",
+                "content": [
+                    "Classes and Objects",
+                    "Constructors and Destructors",
+                    "Inheritance (Single, Multiple, and Hierarchical)"
+                ]
+            },
+            {
+                "subtitle": "Polymorphism and Encapsulation",
+                "content": [
+                    "Method Overloading and Overriding",
+                    "Encapsulation and Data Hiding",
+                    "Virtual Functions and Abstract Classes"
+                ]
+            },
+            {
+                "subtitle": "Templates and STL",
+                "content": [
+                    "Introduction to Templates (Function and Class Templates)",
+                    "Standard Template Library (STL): Overview",
+                    "Working with Vectors, Lists, and Maps"
+                ]
+            },
+            {
+                "subtitle": "Exception Handling",
+                "content": [
+                    "Try, Catch, and Throw Keywords",
+                    "Handling Multiple Exceptions",
+                    "Best Practices for Error Handling in C++"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Advanced Topics in C and C++",
+        "contents": [
+            {
+                "subtitle": "File I/O in C++",
+                "content": [
+                    "Working with Files (ifstream, ofstream, fstream)",
+                    "Reading and Writing Binary Files",
+                    "File Pointers and Their Manipulation"
+                ]
+            },
+            {
+                "subtitle": "Memory Management in C++",
+                "content": [
+                    "Dynamic Memory Allocation (new, delete)",
+                    "Smart Pointers in C++",
+                    "Managing Memory Efficiently"
+                ]
+            },
+            {
+                "subtitle": "Multithreading in C++",
+                "content": [
+                    "Introduction to Threads",
+                    "Creating and Managing Threads",
+                    "Synchronization Mechanisms (Mutex, Lock, Condition Variables)"
+                ]
+            },
+            {
+                "subtitle": "Advanced Data Structures",
+                "content": [
+                    "Linked Lists, Stacks, and Queues",
+                    "Trees (Binary Trees, BST, AVL)",
+                    "Graphs and Their Applications"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "C/C++ Project",
+        "content": [
+            "Planning the Project Architecture",
+            "Building a C-based Program (e.g., File Manager or Calculator)",
+            "Enhancing the Program with C++ Features",
+            "Implementing OOP Concepts in C++",
+            "Testing and Debugging the Program"
+        ]
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "title": "Course Overview",
+        "content": [
+            "Introduction to MERN Stack",
+            "Importance of Full-Stack Skills in Web Development",
+            "Overview of the Course Structure and Goals"
+        ]
+    },
+    {
+        "title": "Getting Started",
+        "content": [
+            "Setting Up the Development Environment",
+            "Introduction to IDEs and Text Editors",
+            "Installing Essential Tools (Node.js, MongoDB, Git)"
+        ]
+    },
+    {
+        "title": "MongoDB",
+        "contents": [
+            {
+                "subtitle": "Introduction to Databases",
+                "content": [
+                    "What is a Database?",
+                    "Overview of MongoDB and its NoSQL Nature",
+                    "Setting Up MongoDB Locally and on the Cloud"
+                ]
+            },
+            {
+                "subtitle": "Working with MongoDB",
+                "content": [
+                    "Basic MongoDB Commands (CRUD Operations)",
+                    "Data Modeling with Mongoose",
+                    "Relationships in MongoDB (Embedded and Referenced)"
+                ]
+            },
+            {
+                "subtitle": "Advanced MongoDB",
+                "content": [
+                    "Aggregation Framework",
+                    "Indexes and Performance Optimization",
+                    "Working with Transactions"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Express.js",
+        "contents": [
+            {
+                "subtitle": "Introduction to Express.js",
+                "content": [
+                    "What is Express.js?",
+                    "Setting Up an Express Server",
+                    "Routing in Express.js"
+                ]
+            },
+            {
+                "subtitle": "Middleware",
+                "content": [
+                    "Understanding Middleware Functions",
+                    "Built-in Middleware in Express.js",
+                    "Creating Custom Middleware"
+                ]
+            },
+            {
+                "subtitle": "API Development",
+                "content": [
+                    "Building RESTful APIs",
+                    "Handling Requests and Responses",
+                    "Working with JSON and Body Parsing"
+                ]
+            },
+            {
+                "subtitle": "Error Handling and Security",
+                "content": [
+                    "Error Handling Middleware",
+                    "Securing APIs with Helmet and CORS",
+                    "Rate Limiting and Logging"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "React.js",
+        "contents": [
+            {
+                "subtitle": "Introduction to React.js",
+                "content": [
+                    "What is React and Why Use It?",
+                    "Setting Up a React Project with Create React App",
+                    "Component-Based Architecture in React"
+                ]
+            },
+            {
+                "subtitle": "State and Props",
+                "content": [
+                    "Understanding State and Props",
+                    "Handling Component State with useState",
+                    "Passing Data with Props"
+                ]
+            },
+            {
+                "subtitle": "React Router",
+                "content": [
+                    "Setting Up React Router",
+                    "Creating Dynamic Routes",
+                    "Handling Navigation Between Pages"
+                ]
+            },
+            {
+                "subtitle": "Forms and Event Handling",
+                "content": [
+                    "Building and Managing Forms",
+                    "Handling Form Submission",
+                    "Controlled vs Uncontrolled Components"
+                ]
+            },
+            {
+                "subtitle": "Advanced React",
+                "content": [
+                    "React Hooks (useEffect, useContext, etc.)",
+                    "Optimizing Performance with React.memo and useCallback",
+                    "Error Boundaries and Code Splitting"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Node.js",
+        "contents": [
+            {
+                "subtitle": "Introduction to Node.js",
+                "content": [
+                    "What is Node.js?",
+                    "Setting Up a Node.js Application",
+                    "Understanding the Node.js Event Loop"
+                ]
+            },
+            {
+                "subtitle": "File System and Streams",
+                "content": [
+                    "Working with Files and Directories",
+                    "Reading and Writing Files with Node.js",
+                    "Understanding Streams and Buffers"
+                ]
+            },
+            {
+                "subtitle": "Working with Databases",
+                "content": [
+                    "Connecting Node.js with MongoDB",
+                    "Performing CRUD Operations from Node.js",
+                    "Handling Asynchronous Operations with Promises and Async/Await"
+                ]
+            },
+            {
+                "subtitle": "Building a RESTful API with Node.js",
+                "content": [
+                    "Setting Up Routes and Controllers",
+                    "Connecting API Endpoints to the Database",
+                    "Testing and Debugging the API"
+                ]
+            },
+            {
+                "subtitle": "Node.js and Security",
+                "content": [
+                    "Protecting Routes with Authentication",
+                    "Using JWT for Secure API Endpoints",
+                    "Best Practices for Node.js Security"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Full-Stack Development with MERN",
+        "contents": [
+            {
+                "subtitle": "Connecting the Frontend and Backend",
+                "content": [
+                    "Communicating between React and Node.js via APIs",
+                    "Sending HTTP Requests using Axios or Fetch",
+                    "Handling Responses and Errors in the Frontend"
+                ]
+            },
+            {
+                "subtitle": "Authentication and Authorization",
+                "content": [
+                    "Implementing JWT Authentication",
+                    "Handling User Roles and Permissions",
+                    "Securing Routes and Components"
+                ]
+            },
+            {
+                "subtitle": "Deployment",
+                "content": [
+                    "Deploying the MERN Application on Heroku or DigitalOcean",
+                    "Setting Up Environment Variables for Security",
+                    "Using PM2 for Node.js Process Management"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Project: Building a MERN Stack Application",
+        "content": [
+            "Planning the Project Architecture",
+            "Setting Up the Backend (Node.js + Express + MongoDB)",
+            "Building the Frontend with React.js",
+            "Connecting the Frontend with the Backend",
+            "Testing and Debugging the Application",
+            "Deploying the Application"
+        ]
+    }
+]

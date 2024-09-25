@@ -1,13 +1,20 @@
 import React, { useEffect } from 'react';
 import Helmet from 'react-helmet';
 import CourseHeading from '../Courses/CourseHeading';
-import FrontendCourse from './FrontendCourse';
+import FrontendCourseHeading from './FrontendCourseHeading';
+import FrontendAccordion from './FrontendAccordion'
+import MernCourseHeading from './MernCourseHeading';
+import MernAccordion from './MernAccordion';
+import MeanCourseHeading from './MeanCourseHeading';
+import MeanAccordion from './MeanAccordion';
+import CCppCourseHeading from './CCppCourseHeading';
+import CCppAccordion from './CCppAccordion';
 
 const Courses = () => {
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
 
   return (
@@ -55,10 +62,15 @@ const Courses = () => {
         <meta name="robots" content="index, follow" />
       </Helmet>
 
-
       <CourseHeading />
-      <FrontendCourse />
-
+      <FrontendCourseHeading />
+      <FrontendAccordion/>
+      <MernCourseHeading/>
+      <MernAccordion/>
+      <MeanCourseHeading/>
+      <MeanAccordion/>
+      <CCppCourseHeading/>
+      <CCppAccordion/>
     </div>
   );
 };
