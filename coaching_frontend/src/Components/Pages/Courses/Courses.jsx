@@ -12,9 +12,9 @@ import CCppAccordion from './CCppAccordion';
 
 const Courses = () => {
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
   return (
@@ -30,7 +30,7 @@ const Courses = () => {
         />
 
         {/* Open Graph for social media */}
-        <meta property="og:title" content="Our Courses - Ezazi Classes" />
+        <meta property="og:title" content="Our Courses-Ezazi Classes" />
         <meta
           property="og:description"
           content="Discover the various courses offered by Ezazi Classes, tailored to provide top-notch education and career development opportunities."

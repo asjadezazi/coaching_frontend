@@ -2,7 +2,7 @@ import React from 'react';
 import { Logo } from './Logo';
 import NavTitles from './NavTitles';
 import DropDownMenu from './DropDownMenu';
-import navbarbg from '../../assets/navbarbg.svg';
+import navbarbg from '../../components/SvgIcons/navbarbg.svg';
 
 export const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
-import horizontalbg from '../../assets/horizontalbg.svg'
-import logo from '../../assets/logo.svg'
+import horizontalbg from '../../components/SvgIcons/horizontalbg.svg'
+import logo from '../../components/SvgIcons/logo.svg'
 import { MapPin } from 'lucide-react';
 import { Phone } from 'lucide-react';
 import { Link } from 'react-router-dom'

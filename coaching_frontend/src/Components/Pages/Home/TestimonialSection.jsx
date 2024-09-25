@@ -1,7 +1,7 @@
 import React from "react"
 import TestimonialHeading from "./TestimonialHeading"
 import TestimonialCards from "./TestimonialCards"
-import mapbg from '../../../assets/mapbg.svg'
+import mapbg from '../../../components/SvgIcons/mapbg.svg'
 import TestimonialModel from "./TestimonialModel"
 
 const TestimonialSection = () => {

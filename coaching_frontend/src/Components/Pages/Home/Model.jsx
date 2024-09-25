@@ -1,11 +1,11 @@
 import React from "react"
 import model from '../../../assets/model.png'
-import react from '../../../assets/react.svg'
-import node from '../../../assets/node.svg'
-import tailwind from '../../../assets/tailwind.svg'
-import html from '../../../assets/html.svg'
-import js from '../../../assets/js.svg'
-import vue from '../../../assets/vue.svg'
+import react from '../../../components/SvgIcons/react.svg'
+import node from '../../../components/SvgIcons/node.svg'
+import tailwind from '../../../components/SvgIcons/tailwind.svg'
+import html from '../../../components/SvgIcons/html.svg'
+import js from '../../../components/SvgIcons/js.svg'
+import vue from '../../../components/SvgIcons/vue.svg'
 import { initAOS } from "../../Utils/aosConfig"
 
 const Model = () => {

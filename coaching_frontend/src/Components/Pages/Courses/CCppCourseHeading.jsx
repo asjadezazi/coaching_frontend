@@ -20,7 +20,8 @@ const CCppCourseHeading = () => {
       </div>
 
 
-      <p className='mt-10 lg:mt-5 text-5xl lg:text-xl  leading-snug'>Learn industry oriented MERN Stack Development</p>
+      <p className='mt-10 lg:mt-5 text-5xl lg:text-xl leading-snug'>Learn C and C++ from Basics to Advanced, Covering In-Depth Programming Concepts</p>
+
 
       <h1 className='mt-20 font-bold lg:mt-10 text-[#4e3dff] text-7xl lg:text-2xl'>Table Of Contents</h1>
       <p className='text-5xl lg:text-xl w-full lg:w-3/5 leading-snug p-4'>Inside each header, the content covers a comprehensive exploration of the topic, including: Conceptual Foundations, Technical Details, Libraries and Frameworks, Advanced Topics, Practical Applications.</p>
