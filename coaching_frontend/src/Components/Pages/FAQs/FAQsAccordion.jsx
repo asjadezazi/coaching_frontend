@@ -8,7 +8,7 @@ import data from '../../../data/faqsAccordionData.json'
 export default function AccordionUsage() {
   return (
     <>
-    <h2 data-aos="slide-left" className="text-5xl lg:text-3xl text-center font-bold mb-10">
+    <h2 data-aos="zoom-in-up" className="text-5xl lg:text-3xl text-center font-bold mb-10">
         Frequently Asked <span className="text-[#4e3dff]">Questions</span>
       </h2>
     <div data-aos="slide-right" className='mx-20 mb-28 lg:mb-0'>

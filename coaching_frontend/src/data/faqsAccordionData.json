@@ -1,15 +1,15 @@
 [
     {
         "question": "What courses does Ezazi Classes offer?",
-        "answer": "At Ezazi Classes, we provide a wide range of courses focused on web development, including Frontend Development, Backend Development, MERN Stack, and MEAN Stack. Our courses are designed to equip students with the latest tools and technologies in the industry."
+        "answer": "At Ezazi Classes, we provide a huge variety of guides targeted on internet improvement, inclusive of Frontend Development, Backend Development, MERN Stack, and MEAN Stack. Our guides are designed to equip college students with the modern day gear and technologies inside the industry."
     },
     {
         "question": "Who can enroll in your courses?",
-        "answer": "Our courses are suitable for anyone interested in web development, from complete beginners to experienced developers looking to advance their skills."
+        "answer": "Our publications are suitable for everyone interested in programming and software creation, including students and working professionals from any background. Whether you have zero coding knowledge or are an experienced developer looking to enhance your skills, you can enroll in our courses."
     },
     {
         "question": "What is the duration of the courses?",
-        "answer": "The duration of our courses varies depending on the subject and depth. Typically, foundational courses last 3-6 months, while advanced courses can range from 6-12 months."
+        "answer": "The period of our guides varies relying at the concern and depth. Typically, foundational courses closing 3-6 months, at the same time as superior guides can range from 6-365 days."
     },
     {
         "question": "Do you offer online classes?",
@@ -21,15 +21,15 @@
     },
     {
         "question": "Do you offer placement assistance?",
-        "answer": "Yes, we offer placement assistance for all our students, including mock interviews, resume building, and job referrals."
+        "answer": "Yes, we provide placement aid to all of our students, including practice interviews, resume writing, and job referrals."
     },
     {
         "question": "Who are the instructors at Ezazi Classes?",
-        "answer": "Our faculty comprises experienced professionals from the web development industry, dedicated to providing hands-on guidance."
+        "answer": "Our faculty consists of seasoned web development experts that are dedicated to giving hands-on training."
     },
     {
         "question": "What is the fee structure?",
-        "answer": "The fee structure varies depending on the course. Please refer to our Courses Page or contact us directly for detailed pricing."
+        "answer": "The pricing structure changes according on the course. For further information about pricing, please visit our Courses page or contact us personally."
     },
     {
         "question": "Can I get a demo class before enrolling?",
@@ -37,6 +37,6 @@
     },
     {
         "question": "How do I enroll in a course?",
-        "answer": "You can enroll through our website by filling out the enrollment form or by contacting us via phone or email."
+        "answer": "You can enroll by filling out the enrollment form on our website, calling us, or sending an email."
     }
 ]

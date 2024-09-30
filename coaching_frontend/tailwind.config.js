@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'aboutus-bg': "url('src/assets/aboutus-bg.svg')",
-        'aboutus-vertical-bg': "url('src/assets/aboutus-vertical-bg.svg')",
-
+        'aboutus-bg': "url('src/components/SvgIcons/aboutus-bg.svg')",
+        'aboutus-vertical-bg': "url('src/components/SvgIcons/aboutus-vertical-bg.svg')",
       },
     },
   },
