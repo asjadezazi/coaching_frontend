@@ -1,11 +1,8 @@
 import React from 'react'
-import getstarted from '../../../assets/SvgIcons/getstarted.svg'
-import { useNavigate } from 'react-router-dom'
 
 const GetStarted = () => {
-  const navigate = useNavigate()
   return (
-    <div className=' flex justify-between p-8 bg-top rounded-3xl mt-10' style={{ backgroundImage: `url(${getstarted})` }}>
+    <div className=' flex justify-between p-8 bg-top rounded-3xl mt-10 bg-getStarted-bg'>
       <p
         // data-aos="zoom-in"
         className='text-white text-6xl lg:text-4xl font-extrabold'>Ready To Upskill ?</p>
