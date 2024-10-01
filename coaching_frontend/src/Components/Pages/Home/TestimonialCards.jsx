@@ -42,13 +42,12 @@ const data = [
 
 const TestimonialCards = () => {
 
-    const renderStars = (rating) => {
-        const stars = [];
-        for (let i = 0; i < rating; i++) {
-            stars.push(<img key={i} src={star} alt="star" className="w-6 h-6 lg:w-4 lg:h-4" />);
-        }
-        return stars;
-    };
+    const renderStars = (rating) => (
+        Array.from({ length: rating }).map((_, i) => (
+            <img key={i} src={star} alt="star" className="w-6 h-6 lg:w-4 lg:h-4" />
+        ))
+    );
+    
 
     return (
         <AwesomeSlider className='relative flex items-center justify-center px-10 py-10 w-full h-full lg:w-2/4 lg:h-auto' style={{ zIndex: 1 }}>
