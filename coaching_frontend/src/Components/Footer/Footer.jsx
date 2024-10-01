@@ -14,14 +14,13 @@ const Footer = () => {
     { name: 'Admissions', path: '/admissions' }
   ]
   return (
-    <footer className='flex flex-col gap-20 lg:px-16 lg:flex lg:flex-row lg:gap-20 text-white p-12 bg-cover bg-center bg-footer-bg'
-    >
+    <footer className='flex flex-col gap-20 lg:px-16 lg:flex lg:flex-row lg:gap-20 text-white p-12 bg-cover bg-center bg-footer-bg'>
       <div
         //  data-aos="zoom-in"
         className='lg:w-96 space-y-10 lg:space-y-4'>
         <div className='flex items-center gap-5'>
-          <img src={logo} alt="logo" className='w-24 lg:w-12' />
-          <h1 id='name' className='text-7xl font-extrabold lg:text-3xl pt-5 lg:pt-2'>Ezazi Classes</h1>
+          <Link to="/"><img src={logo} alt="logo" className='w-24 lg:w-12' /></Link>
+          <Link to="/"><h1 id='name' className='text-7xl font-extrabold lg:text-3xl pt-5 lg:pt-2'>Ezazi Classes</h1></Link>
         </div>
         <p className='text-4xl lg:text-sm leading-normal'>We work with a passion of taking challenges and creating new ones in IT sector.</p>
         <button className='bg-blue-500 w-52 lg:w-20 rounded-full p-5 lg:p-2 font-bold text-4xl lg:text-sm  hover:bg-blue-600 transition-colors duration-300'><Link to="/aboutus">About Us</Link></button>
