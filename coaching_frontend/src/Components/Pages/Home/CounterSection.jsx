@@ -1,16 +1,14 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
-import horizontalbg from '../../../assets/SvgIcons/horizontalbg.svg';
-import verticalbg from '../../../assets/SvgIcons/verticalbg.svg';
 import hat from '../../../assets/SvgIcons/graduation-hat.svg';
 import expert from '../../../assets/SvgIcons/expert.svg';
 import opinion from '../../../assets/SvgIcons/opinions.svg';
 
 const CounterSection = () => {
     const { ref, inView } = useInView({
-        triggerOnce: false,  // Trigger only once
-        threshold: 0.5,      // Trigger when 50% of the component is in view
+        triggerOnce: false,
+        threshold: 0.5,
     });
 
     const counters = [
@@ -34,21 +32,13 @@ const CounterSection = () => {
         },
     ];
 
-      return (
+    return (
         <div
             // data-aos="slide-up"
             ref={ref}
-            className="mx-12 lg:mx-52 my-20 lg:flex text-white bg-cover bg-center"
-            style={{
-                backgroundImage: `url(${verticalbg})`, // Default for smaller screens
-            }}
-        >
+            className="mx-12 lg:mx-52 my-20 lg:flex text-white bg-cover bg-center bg-counter-vertical-bg">
             <div
-                className="lg:w-full lg:h-full bg-cover bg-center"
-                style={{
-                    backgroundImage: `url(${horizontalbg})`, // Override for larger screens
-                }}
-            >
+                className="lg:w-full lg:h-full bg-cover bg-center bg-counter-horizontal-bg">
                 <div className="lg:flex lg:justify-around lg:items-center py-14 pl-10">
                     {counters.map((counter, index) => (
                         <div key={index} className="flex flex-col space-y-10 lg:space-y-0 lg:gap-0 justify-start items-start p-6">
