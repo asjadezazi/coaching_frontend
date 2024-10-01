@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { AlignJustify } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 
 const DropDownMenu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,6 +8,16 @@ const DropDownMenu = () => {
     const handleLinkClick = () => {
         setIsMenuOpen(false);
     };
+
+    const links = [
+        { name: 'Home', path: '/' },
+        { name: 'Courses', path: '/courses' },
+        { name: 'About Us', path: '/aboutus' },
+        { name: 'FAQs', path: '/faqs' },
+        { name: 'Contact', path: '/contact' },
+        { name: 'Admissions', path: '/admissions' }
+    ];
+
     return (
         <>
             <div className="lg:hidden block cursor-pointer text-5xl z-10">
@@ -22,45 +31,20 @@ const DropDownMenu = () => {
                     }`}
                 style={{ top: '100%', color: 'darkblue' }}
             >
-                <li
-                    className=" text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/">Home</Link>
-                </li>
-                <li
-                    className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/courses">Courses</Link>
-                </li>
-                <li
-                    className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/aboutus">About Us</Link>
-                </li>
-                <li
-                    className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/faqs">FAQs</Link>
-                </li>
-                <li
-                    className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/contact">Contact</Link>
-                </li>
-                <li
-                    className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
-                    onClick={handleLinkClick}
-                >
-                    <Link to="/admissions">Admissions</Link>
-                </li>
+                <ul className="w-full">
+                    {links.map((link, index) => (
+                        <li
+                            key={index}
+                            className="text-7xl list-none w-full text-center p-10 hover:bg-[#4e3dff] hover:text-white transition-all cursor-pointer"
+                            onClick={handleLinkClick}
+                        >
+                            <Link to={link.path}>{link.name}</Link>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default DropDownMenu
+export default DropDownMenu;
