@@ -1,8 +1,8 @@
 import React from 'react';
-import Bg from '../../../components/SvgIcons/RectLight.svg';
-import curriculum from '../../../components/SvgIcons/curriculum.svg';
-import expert from '../../../components/SvgIcons/professional-success.svg';
-import success from '../../../components/SvgIcons/customer-success.svg';
+import Bg from '../../../assets/SvgIcons/RectLight.svg';
+import curriculum from '../../../assets/SvgIcons/curriculum.svg';
+import expert from '../../../assets/SvgIcons/professional-success.svg';
+import success from '../../../assets/SvgIcons/customer-success.svg';
 
 const ChooseUsCards = () => {
   const data = [

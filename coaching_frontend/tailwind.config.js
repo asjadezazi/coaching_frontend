@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'aboutus-bg': "url('src/components/SvgIcons/aboutus-bg.svg')",
-        'aboutus-vertical-bg': "url('src/components/SvgIcons/aboutus-vertical-bg.svg')",
-        'navbar-bg': "url('src/components/SvgIcons/navbarbg.svg')",
-        'footer-bg': "url('src/components/SvgIcons/horizontalbg.svg')"
+        'aboutus-bg': "url('src/assets/SvgIcons/aboutus-bg.svg')",
+        'aboutus-vertical-bg': "url('src/assets/SvgIcons/aboutus-vertical-bg.svg')",
+        'navbar-bg': "url('src/assets/SvgIcons/navbarbg.svg')",
+        'footer-bg': "url('src/assets/SvgIcons/horizontalbg.svg')"
       },
     },
   },

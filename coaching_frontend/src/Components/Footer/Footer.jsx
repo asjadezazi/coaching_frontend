@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../../components/SvgIcons/logo.svg'
+import logo from '../../assets/SvgIcons/logo.svg'
 import { MapPin } from 'lucide-react';
 import { Phone } from 'lucide-react';
 import { Link } from 'react-router-dom'

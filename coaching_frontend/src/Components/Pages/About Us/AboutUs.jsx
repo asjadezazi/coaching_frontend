@@ -1,7 +1,6 @@
 import React , {useEffect} from 'react';
 import AboutUsHeading from './AboutUsHeading';
 import AboutUsPara from './AboutUsPara';
-import CourseSection from '../Home/CourseSection';
 import OurMission from './OurMission';
 import WhyChooseUs from './WhyChooseUs';
 import TestimonialSection from '../Home/TestimonialSection';

@@ -1,5 +1,5 @@
 import React from 'react'
-import getstarted from '../../../components/SvgIcons/getstarted.svg'
+import getstarted from '../../../assets/SvgIcons/getstarted.svg'
 import { useNavigate } from 'react-router-dom'
 
 const GetStarted = () => {

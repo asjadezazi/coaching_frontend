@@ -1,11 +1,11 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
-import horizontalbg from '../../../components/SvgIcons/horizontalbg.svg';
-import verticalbg from '../../../components/SvgIcons/verticalbg.svg';
-import hat from '../../../components/SvgIcons/graduation-hat.svg';
-import expert from '../../../components/SvgIcons/expert.svg';
-import opinion from '../../../components/SvgIcons/opinions.svg';
+import horizontalbg from '../../../assets/SvgIcons/horizontalbg.svg';
+import verticalbg from '../../../assets/SvgIcons/verticalbg.svg';
+import hat from '../../../assets/SvgIcons/graduation-hat.svg';
+import expert from '../../../assets/SvgIcons/expert.svg';
+import opinion from '../../../assets/SvgIcons/opinions.svg';
 
 const CounterSection = () => {
     const { ref, inView } = useInView({
