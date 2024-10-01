@@ -4,7 +4,9 @@ import star from '../../../assets/star.png'
 
 const MeanCourseHeading = () => {
   return (
-    <div  data-aos="slide-right" className='mt-28 p-7  '>
+    <div 
+    // data-aos="slide-right"
+     className='mt-28 p-7  '>
 
     {/* heading */}
     <h1 className='text-8xl lg:text-5xl font-bold'>Full Stack Development:<span className='text-[#4e3dff]'> With <br /> Mean</span> </h1>

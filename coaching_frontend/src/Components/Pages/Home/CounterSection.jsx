@@ -36,7 +36,7 @@ const CounterSection = () => {
 
       return (
         <div
-            data-aos="slide-up"
+            // data-aos="slide-up"
             ref={ref}
             className="mx-12 lg:mx-52 my-20 lg:flex text-white bg-cover bg-center"
             style={{

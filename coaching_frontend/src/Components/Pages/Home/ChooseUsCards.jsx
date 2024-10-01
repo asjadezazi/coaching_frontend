@@ -27,7 +27,9 @@ const ChooseUsCards = () => {
     <div className="flex flex-col lg:flex-row lg:px-28">
       {data.map((value, index) => {
         return (
-          <div data-aos="fade-up" className="px-12 py-10 lg:py-0 lg:flex-1 lg:px-3" key={index}>
+          <div
+            // data-aos="fade-up"
+            className="px-12 py-10 lg:py-0 lg:flex-1 lg:px-3" key={index}>
             <div
               className="relative bg-no-repeat bg-cover w-full h-full p-20 lg:p-10 flex items-center justify-center rounded-[80px] lg:rounded-[40px] text-left overflow-hidden"
               style={{ backgroundImage: `url(${Bg})` }}

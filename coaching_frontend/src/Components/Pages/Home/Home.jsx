@@ -6,7 +6,6 @@ import HowItWorksSection from "./HowItWorksSection"
 import CounterSection from "./CounterSection"
 import TestimonialSection from "./TestimonialSection.jsx"
 import GetStarted from "./GetStarted.jsx"
-// import TeachersSection from "./TeachersSection.jsx"
 
 const Home = () => {
   useEffect(() => {
@@ -17,7 +16,6 @@ const Home = () => {
       <EntrySection />
       <ChooseUsSection />
       <CourseSection />
-      {/* <TeachersSection /> */}
       <HowItWorksSection />
       <CounterSection />
       <TestimonialSection />

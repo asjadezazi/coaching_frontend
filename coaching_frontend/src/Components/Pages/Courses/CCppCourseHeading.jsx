@@ -4,7 +4,9 @@ import star from '../../../assets/star.png'
 
 const CCppCourseHeading = () => {
   return (
-    <div data-aos="slide-right" className='mt-28 p-7  '>
+    <div
+    //  data-aos="slide-right"
+      className='mt-28 p-7  '>
 
       {/* heading */}
       <h1 className='text-8xl lg:text-5xl font-bold'>C & C++ Programming:<span className='text-[#4e3dff]'> Step by Step<br className='hidden lg:inline' /> Tutorial</span> </h1>

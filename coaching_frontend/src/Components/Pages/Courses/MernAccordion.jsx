@@ -7,7 +7,9 @@ import data from '../../../data/mernAccordionData.json'
 
 const MernAccordion = () => {
   return (
-    <div data-aos="slide-right" className='p-7'> {/* AOS on container instead */}
+    <div 
+    // data-aos="slide-right"
+     className='p-7'> {/* AOS on container instead */}
     {data.map((section, index) => (
       <Accordion key={index} className='w-full mt-2 p-3 lg:p-0 lg:w-2/4'>
         <AccordionSummary

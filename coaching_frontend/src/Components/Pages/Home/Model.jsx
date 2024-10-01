@@ -14,7 +14,7 @@ const Model = () => {
       });
     return (
         <div className="flex justify-center relative top-44 lg:top-24"
-          data-aos="slide-up"
+        //   data-aos="slide-up"
           >
             {/* Top-left */}
             <div className="absolute top-0 left-[20%] sm:left-[28 %] md:left-[30%] lg:left-[35%] xl:left-[38%]  rounded-md w-12 h-11 z-0">

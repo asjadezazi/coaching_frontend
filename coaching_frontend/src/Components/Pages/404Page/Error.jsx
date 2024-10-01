@@ -5,7 +5,9 @@ const Error = () => {
   const navigate = useNavigate()
   return (
     <div className='bg-indigo-50 flex flex-col justify-center items-center gap-10 h-screen'>
-      <div data-aos="slide-down" className='text-center space-y-10'>
+      <div
+      //  data-aos="slide-down"
+        className='text-center space-y-10'>
         <h1 className='text-[20rem] lg:text-9xl font-black text-slate-500'>404</h1>
         <p className='text-5xl lg:text-3xl font-bold'>
           Oops! We can't seem to find the page you're looking for.

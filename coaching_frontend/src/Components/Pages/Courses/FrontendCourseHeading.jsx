@@ -3,7 +3,9 @@ import star from '../../../assets/star.png'
 
 const FrontendCourseHeading = () => {
     return (
-        <div data-aos="zoom-in" className='p-7'>
+        <div
+        //  data-aos="zoom-in"
+          className='p-7'>
 
             {/* heading */}
             <h1 className='text-8xl lg:text-5xl font-bold'>Front End Web Development:<span className='text-[#4e3dff]'> Get <br /> Started</span> </h1>
@@ -23,11 +25,6 @@ const FrontendCourseHeading = () => {
 
             <h1 className='mt-20 font-bold lg:mt-10 text-[#4e3dff] text-7xl lg:text-2xl'>Table Of Contents</h1>
             <p className='text-5xl lg:text-xl w-full lg:w-3/5 leading-snug p-4'>Inside each header, the content covers a comprehensive exploration of the topic, including: Conceptual Foundations, Technical Details, Libraries and Frameworks, Advanced Topics, Practical Applications.</p>
-
-
-
-
-
         </div>
     )
 }

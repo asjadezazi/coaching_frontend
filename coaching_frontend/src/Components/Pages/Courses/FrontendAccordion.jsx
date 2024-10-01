@@ -4,18 +4,13 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import data from '../../../data/frontendAcoordianData.json';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 function FrontendAccordion() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     once: true, // Only animate once
-  //   });
-  // }, []);
 
   return (
-    <div data-aos="slide-right" className='p-7'> {/* AOS on container instead */}
+    <div 
+    // data-aos="slide-right"
+     className='p-7'>
       {data.map((section, index) => (
         <Accordion key={index} className='w-full mt-2 p-3 lg:p-0 lg:w-2/4'>
           <AccordionSummary
