@@ -2,7 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import star from '../../../assets/star.png';
-import model from '../../../assets/model.png';
+import abhiraj from '../../../assets/abhiraj.jpg';
 import azhar from '../../../assets/azhar.jpg'
 import shavez from '../../../assets/shavez.jpg'
 import arshad from '../../../assets/arshad.jpg'
@@ -36,7 +36,7 @@ const data = [
         description: "Amazing experience! Knowledgeable faculty provided crucial insights for my career. The supportive environment made learning easy, and the skills I gained opened new opportunities in tech.",
         post: "React Developer",
         rating: 5,
-        image: model
+        image: abhiraj
     }
 ];
 

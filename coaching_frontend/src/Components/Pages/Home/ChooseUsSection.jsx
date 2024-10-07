@@ -4,7 +4,7 @@ import ChooseUsCards from './ChooseUsCards';
 
 const ChooseUsSection = () => {
   return (
-    <section className='h-auto bg-white z-0 pt-16'>
+    <section className='h-auto z-0 pt-16'>
       <ChooseUsHeading/>
       <ChooseUsCards/>
     </section>
