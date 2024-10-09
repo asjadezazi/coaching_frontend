@@ -4,7 +4,7 @@ const TestimonialHeading = () => {
   return (
     <div
     //  data-aos="flip-left" 
-     className="text-center pt-10 mb-12 drop-shadow-[0_10px_100px_#150c77]">
+     className="text-center pt-10 mb-12">
       <p className="text-3xl lg:text-lg mt-20 lg:mt-10 mb-5 text-[#4e3dff] uppercase tracking-wide font-semibold">
         Student Testimonials
       </p>
