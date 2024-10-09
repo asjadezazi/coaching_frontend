@@ -16,20 +16,22 @@ const Home = () => {
   const slides = [
     {
         image: '../src/assets/slide1.png', 
-        title: 'Master Cutting-Edge Tech Skills',
-        description: 'Join Ezazi Classes to learn cutting-edge tech skills in courses like Frontend Development, MERN Stack, and more. Equip yourself for a successful career in tech.'
+        title: 'Master Innovative Tech Skills',
+        description: 'Join Ezazi Classes to master cutting-edge and innovative tech skills in courses like Frontend Development, MERN Stack, and more. Equip yourself with the knowledge and tools needed for a successful and thriving career in the technology sector.'
     },
     {
         image: '../src/assets/slide2.png', 
         title: 'Comprehensive Academic Coaching',
-        description: 'We offer specialized coaching for students in classes 9 to 10, ensuring a strong foundation in subjects like Mathematics, Science, and English.'
+        description: 'We offer coaching for students in classes 9 to 12, ensuring a strong foundation in subjects like Mathematics, Science, and English for academic success.'
     },
     {
         image: '../src/assets/slide3.png', 
-        title: 'Your Pathway to Success and Growth',
-        description: 'At Ezazi Classes, we are committed to empowering students through quality education in both technology and academics, ensuring they are ready for the challenges of tomorrow.'
+        title: 'Your Pathway to Success and Personal Growth',
+        description: 'Ezazi Classes empowers students with quality education in technology and academics, preparing them for tomorrow’s challenges and opportunities.'
     }
 ];
+
+
 
 
   return (
