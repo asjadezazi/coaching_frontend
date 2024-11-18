@@ -36,9 +36,9 @@ const CounterSection = () => {
         <div
             // data-aos="slide-up"
             ref={ref}
-            className="mx-12 lg:mx-52 my-20 lg:flex text-white bg-cover bg-center bg-counter-vertical-bg">
+            className="mx-12 lg:mx-52 my-20 lg:flex text-white bg-[#260bc0]">
             <div
-                className="lg:w-full lg:h-full bg-cover bg-center bg-counter-horizontal-bg">
+                className="lg:w-full lg:h-full bg-[#260bc0]">
                 <div className="lg:flex lg:justify-around lg:items-center py-14 pl-10">
                     {counters.map((counter, index) => (
                         <div key={index} className="flex flex-col space-y-10 lg:space-y-0 lg:gap-0 justify-start items-start p-6">

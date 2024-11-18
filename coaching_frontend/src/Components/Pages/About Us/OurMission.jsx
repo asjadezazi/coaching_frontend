@@ -1,5 +1,5 @@
 import React from 'react'
-import laptopboy from '../../../assets/laptopboy.png'
+import laptopboy from '../../../assets/images/laptopboy.png'
 
 const OurMission = () => {
   return (

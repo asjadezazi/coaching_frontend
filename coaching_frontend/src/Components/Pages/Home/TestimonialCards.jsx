@@ -1,11 +1,11 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import star from '../../../assets/star.png';
-import abhiraj from '../../../assets/abhiraj.jpg';
-import azhar from '../../../assets/azhar.jpg'
-import shavez from '../../../assets/shavez.jpg'
-import arshad from '../../../assets/arshad.jpg'
+import star from '../../../assets/images/star.png';
+import abhiraj from '../../../assets/images/abhiraj.jpg';
+import azhar from '../../../assets/images/azhar.jpg'
+import shavez from '../../../assets/images/shavez.jpg'
+import arshad from '../../../assets/images/arshad.jpg'
 
 
 

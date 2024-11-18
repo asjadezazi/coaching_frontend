@@ -1,5 +1,5 @@
 import React from 'react'
-import sittingLadyBg from '../../../assets/sittinglady.png'
+import sittingLadyBg from '../../../assets/images/sittinglady.png'
 
 const AboutUsPara = () => {
   return (

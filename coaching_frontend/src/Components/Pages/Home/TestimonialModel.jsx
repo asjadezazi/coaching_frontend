@@ -1,5 +1,5 @@
 import React from 'react'
-import tmodel from '../../../assets/testimonial.png'
+import tmodel from '../../../assets/images/testimonial.png'
 
 const TestimonialModel = () => {
   return (

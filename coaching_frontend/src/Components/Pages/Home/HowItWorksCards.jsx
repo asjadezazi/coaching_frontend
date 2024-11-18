@@ -1,10 +1,7 @@
 import React from "react"
-import Bg from '../../../assets/SvgIcons/RectLight.svg'
-import pinkBg from '../../../assets/SvgIcons/pinkbg.svg'
-import purplebg from '../../../assets/SvgIcons/purplebg.svg'
-import icon1 from '../../../assets/01.png'
-import icon2 from '../../../assets/02.png'
-import icon3 from '../../../assets/03.png'
+import icon1 from '../../../assets/images/01.png'
+import icon2 from '../../../assets/images/02.png'
+import icon3 from '../../../assets/images/03.png'
 import { ArrowRight } from 'lucide-react'
 import { ArrowLeft } from 'lucide-react'
 import { useNavigate } from "react-router-dom"
@@ -17,7 +14,7 @@ const HowItWorksCards = () => {
       id: "01",
       title: "Send Us Message",
       description: "Reach out to us by sending a message through our contact form. We'll guide you from your first step to receiving a response within minutes.",
-      image: Bg,
+      image: "#260bc0",
       icon: icon1,
       backgroundColor: "#CCE4FF",
       arrow: <ArrowRight className='stroke-white'/>
@@ -26,7 +23,7 @@ const HowItWorksCards = () => {
       id: "02",
       title: "Discuss With Us",
       description: "Once we receive your message, our team will review it and provide tailored advice on how our services can best meet your needs.",
-      image: pinkBg,
+      image: "#f10675",
       icon: icon2,
       backgroundColor: "#FFEAF5",
       arrow: <ArrowLeft className='stroke-white'/>
@@ -35,7 +32,7 @@ const HowItWorksCards = () => {
       id: "03",
       title: "Start Your Learning",
       description: "Getting started is simple and secure. We offer convenient payment options to ensure your learning journey begins without any hassle.",
-      image: purplebg,
+      image: "#803da7",
       icon: icon3,
       backgroundColor: "#F1D9FF",
       arrow: <ArrowRight className='stroke-white'/>
@@ -59,7 +56,7 @@ const HowItWorksCards = () => {
                 className={`flex lg:relative top-10`}>
                 <div
                   className="w-[30%] lg:w-20 h-[470px] lg:h-32 rounded-tl-[80px] lg:rounded-tl-3xl rounded-bl-[80px] lg:rounded-bl-3xl bg-center bg-cover flex justify-center items-center text-white text-8xl lg:text-3xl font-bold"
-                  style={{ backgroundImage: `url(${value.image})` }}
+                  style={{ backgroundColor: `${value.image}` }}
                 >
                   {value.id}
                 </div>

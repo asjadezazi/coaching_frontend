@@ -2,7 +2,7 @@ import React from 'react'
 
 const GetStarted = () => {
   return (
-    <div className=' flex justify-between p-8 bg-top rounded-3xl mt-10 bg-getStarted-bg'>
+    <div className=' flex justify-between p-8 bg-top rounded-3xl mt-10 bg-[#f10675]'>
       <p
         // data-aos="zoom-in"
         className='text-white text-6xl lg:text-4xl font-extrabold'>Ready To Upskill ?</p>

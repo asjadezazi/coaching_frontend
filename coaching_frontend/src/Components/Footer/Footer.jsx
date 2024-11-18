@@ -14,7 +14,7 @@ const Footer = () => {
     { name: 'Admissions', path: '/admissions' }
   ]
   return (
-    <footer className='flex flex-col gap-20 lg:px-16 lg:flex lg:flex-row lg:gap-20 text-white p-12 bg-cover bg-center bg-footer-bg'>
+    <footer className='flex flex-col gap-20 lg:px-16 lg:flex lg:flex-row lg:gap-20 text-white p-12 bg-[#260bc0]'>
       <div
         //  data-aos="zoom-in"
         className='lg:w-96 space-y-10 lg:space-y-4'>

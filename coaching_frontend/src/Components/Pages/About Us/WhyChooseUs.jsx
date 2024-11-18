@@ -1,6 +1,6 @@
 import React from 'react'
-import lady from '../../../assets/testimonial.png'
-import boy from '../../../assets/boy.png'
+import lady from '../../../assets/images/testimonial.png'
+import boy from '../../../assets/images/boy.png'
 
 const WhyChooseUs = () => {
     return (

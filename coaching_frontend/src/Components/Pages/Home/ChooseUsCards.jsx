@@ -1,5 +1,5 @@
 import React from 'react';
-import Bg from '../../../assets/SvgIcons/RectLight.svg';
+// import Bg from '../../../assets/SvgIcons/RectLight.svg';
 import curriculum from '../../../assets/SvgIcons/curriculum.svg';
 import expert from '../../../assets/SvgIcons/professional-success.svg';
 import success from '../../../assets/SvgIcons/customer-success.svg';
@@ -31,10 +31,10 @@ const ChooseUsCards = () => {
             // data-aos="fade-up"
             className="px-12 py-10 lg:py-0 lg:flex-1 lg:px-3" key={index}>
             <div
-              className="relative bg-no-repeat bg-cover w-full h-full p-20 lg:p-10 flex items-center justify-center rounded-[80px] lg:rounded-[40px] text-left overflow-hidden"
-              style={{ backgroundImage: `url(${Bg})` }}
+              className="relative w-full h-full p-20 lg:p-10 flex items-center justify-center rounded-[80px] lg:rounded-[40px] text-left overflow-hidden bg-[#260bc0]"
+              // style={{ backgroundImage: `url(${Bg})` }}
             >
-              <div className="hidden lg:block absolute inset-0 bg-black opacity-25 rounded-[80px]"></div>
+              {/* <div className="hidden absolute inset-0 bg-black opacity-25 rounded-[80px]"></div> */}
               <div className="relative z-10 text-white flex flex-col gap-5">
                 <img src={value.icon} alt="icon" className="size-28 lg:size-16" />
                 <h1 className="text-5xl font-bold lg:text-lg">{value.title}</h1>
